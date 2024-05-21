@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import Navbar from "./Components/Navbar/Navbar";
 import Hero from "./Components/Hero/Hero";
 const App = () => {
-  let heroDat = [
+  let heroData = [
     { text1: "Dive into" , text2: "what you love"},
     { text1: "Indulge" , text2: "your passions"},
     { text1: "Give in to" , text2: "your favorites"},
@@ -23,9 +23,9 @@ const App = () => {
       <Navbar/>
       <Hero 
         setPlayStatus={setPlayStatus}
-        setHeroCount={setHeroCount[heroCount]}
+        heroData={heroData[heroCount]}
         heroCount={heroCount}
-        heroDat={heroDat}
+        setHeroCount={setHeroCount}
         playStatus={playStatus}
         />
     </div>

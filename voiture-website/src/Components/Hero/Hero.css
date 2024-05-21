@@ -6,7 +6,7 @@
 .hero-text {
     color: #fff;
     font-size: 110px;
-    font-weight: 500;
+    font-weight: 200;
     line-height: 130px;
     
 }
@@ -18,13 +18,12 @@
     margin-top: 70px;
     padding: 5px 8px;
     padding-left: 30px;
-    border: radius 60px;
-    -webkit-border-radius:60px;
-    -moz-border-radius:60px;
-    -ms-border-radius:60px;
-    -o-border-radius:60px;
-    background-color: #fff;
-    color: #fff;
+    border-radius: 60px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+    background-color: white;
     cursor: pointer;
 }
 .hero-explore p {
@@ -45,8 +44,8 @@
     list-style: none;
 }
 .hero-dot {
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     border-radius: 7.5px;
     background-color: #fff;
     cursor: pointer;

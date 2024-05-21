@@ -5,8 +5,7 @@ import pause_icon from '../../assets/pause_icon.png'
 const Hero = ({heroData,setHeroCount,heroCount,setPlayStatus,playStatus}) => {
   return (
     <div className="hero">
-        {heroData && (
-            <>
+        
         <div className='hero-text'>
         <p>{heroData.text1}</p>
         <p>{heroData.text2}</p>
@@ -26,8 +25,9 @@ const Hero = ({heroData,setHeroCount,heroCount,setPlayStatus,playStatus}) => {
             <p>See the video</p>
         </div>
     </div>
-</>
-        )};
+
+        
+    
 </div>
   )
 }
