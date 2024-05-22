@@ -2,6 +2,7 @@ import Background from "./Components/Background/Background";
 import { useEffect, useState } from "react";
 import Navbar from "./Components/Navbar/Navbar";
 import Hero from "./Components/Hero/Hero";
+import Footer from "./Components/Footer/Footer";
 const App = () => {
   let heroData = [
     { text1: "Dive into" , text2: "what you love"},
@@ -28,6 +29,7 @@ const App = () => {
         setHeroCount={setHeroCount}
         playStatus={playStatus}
         />
+        <Footer/>
     </div>
   )
 }
